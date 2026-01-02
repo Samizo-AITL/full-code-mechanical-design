@@ -23,6 +23,29 @@ and automation.
 
 ---
 
+## Why Full-Code Mechanical Design Wins
+
+Mechanical design should not be treated as a static artifact (CAD data or drawings),
+but as a reproducible, evolvable set of rules.
+
+**Full Code Mechanical Design** shifts the core of mechanical design from
+manual GUI operations to explicit, executable code.
+
+In this approach:
+
+- Geometry is defined by code, not by mouse operations
+- Dimensions are variables, not fixed values
+- Design intent is explicit and reviewable
+- Verification and design live in the same environment
+- Mechanical design becomes reusable intellectual property (IP)
+
+This is not an efficiency improvement.
+It is a structural transformation of mechanical design itself.
+
+Once design logic is expressed as code,
+there is no reason to return to GUI-driven workflows.
+
+---
 ## Concept
 
 Traditional CAD workflows are heavily dependent on GUI operations, feature histories,
