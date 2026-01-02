@@ -6,6 +6,8 @@ This repository explores a methodology for designing mechanical parts and assemb
 entirely through Python code using FreeCAD, focusing on reproducibility, clarity of design intent,
 and automation.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18134920.svg)](https://doi.org/10.5281/zenodo.18134920)
+
 ---
 
 ## 🔗 Links
@@ -201,6 +203,12 @@ However, claims of originality or ownership over the methodology itself are not.
 This repository discloses a code-driven mechanical design methodology.
 The methodology itself is provided as prior art and may not be claimed
 as exclusive intellectual property by third parties.
+
+### Prior Art Notice
+
+This repository and its associated Zenodo record (DOI: 10.5281/zenodo.18134920)
+constitute a public disclosure of the Full Code Mechanical Design methodology
+and are intended to serve as prior art.
 
 ---
 
