@@ -194,10 +194,17 @@ However, claims of originality or ownership over the methodology itself are not.
 
 | Item | License | Description |
 |------|---------|-------------|
-| **Source Code** | MIT | Free to use, modify, redistribute |
-| **Text Materials** | CC BY 4.0 / CC BY-SA 4.0 | Attribution & share-alike rules |
-| **Figures & Diagrams** | CC BY-NC 4.0 | Non-commercial use |
+| **Source Code** | Apache License 2.0 | Free to use, modify, redistribute, with patent protection |
+| **Text Materials** | CC BY 4.0 | Attribution required |
+| **Figures & Diagrams** | CC BY-NC 4.0 | Non-commercial use only |
+| **Generated CAD Outputs** | Same as source code | Derived from licensed code |
 | **External References** | Original license applies | Cite properly |
+
+### Methodology Notice
+
+This repository discloses a code-driven mechanical design methodology.
+The methodology itself is provided as prior art and may not be claimed
+as exclusive intellectual property by third parties.
 
 ---
 
