@@ -74,9 +74,6 @@ This approach can be summarized as:
 
 ---
 
-
----
-
 ## Status
 
 - Experimental
