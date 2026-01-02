@@ -159,6 +159,19 @@ similar to RTL or IP blocks in SoC design.
 
 ---
 
+## Intellectual Property Notice
+
+This repository represents a reference implementation of
+code-driven mechanical design methodology.
+
+The core value of this project lies not in generated CAD files,
+but in the design logic encoded as software.
+
+Forking is permitted under the license.
+However, claims of originality or ownership over the methodology itself are not.
+
+---
+
 ## 👤 Author
 
 | 📌 Item | Details |
