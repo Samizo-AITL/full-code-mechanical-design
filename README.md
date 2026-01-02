@@ -1,3 +1,9 @@
+---
+title: Repository Index
+layout: default
+---
+
+
 # Full Code Mechanical Design
 
 **A code-driven approach to mechanical design without relying on GUI-based CAD workflows.**
