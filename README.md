@@ -86,6 +86,34 @@ without any GUI-based modeling operations.
 
 ---
 
+## Analogy to SoC Design
+
+This approach is directly analogous to modern SoC design workflows.
+
+In semiconductor design, manual wiring and layout-centric design
+ended decades ago. Today, engineers describe intent using RTL
+(Verilog/VHDL), while placement and routing are handled by tools.
+
+Mechanical design is currently at a similar turning point.
+
+Traditional mechanical CAD workflows rely heavily on manual GUI
+operations, much like hand-routing in early chip design.
+In contrast, this project treats:
+
+- Geometry generation as layout
+- OCCT as the geometry engine
+- Python code as RTL
+- Assemblies as floorplanning
+- CAD tools as execution environments
+
+In this sense, **Full Code Mechanical Design is to mechanical engineering
+what RTL is to SoC design**.
+
+This shift moves mechanical design from a craft-based process
+to an intent-driven, reproducible, and scalable engineering discipline.
+
+---
+
 ## License
 
 MIT (planned)
