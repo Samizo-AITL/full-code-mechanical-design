@@ -11,8 +11,6 @@ This repository explores a methodology for designing mechanical parts and assemb
 entirely through Python code using FreeCAD, focusing on reproducibility, clarity of design intent,
 and automation.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18134920.svg)](https://doi.org/10.5281/zenodo.18134920)
-
 ---
 
 ## 🔗 Links
@@ -22,6 +20,19 @@ and automation.
 | 🇺🇸 English | [![GitHub Pages EN](https://img.shields.io/badge/GitHub%20Pages-English-brightgreen?logo=github)](https://samizo-aitl.github.io/full-code-mechanical-design/) | [![GitHub Repo EN](https://img.shields.io/badge/GitHub-English-blue?logo=github)](https://github.com/Samizo-AITL/full-code-mechanical-design/tree/main) |
 
 [![Back to Samizo-AITL Portal](https://img.shields.io/badge/Back%20to%20Samizo--AITL%20Portal-brightgreen)](https://samizo-aitl.github.io) 
+
+---
+
+This repository explores a methodology for designing mechanical parts and assemblies entirely through Python code using FreeCAD, focusing on reproducibility, clarity of design intent, and automation.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18134920.svg)](https://doi.org/10.5281/zenodo.18134920)
+
+---
+
+## Citation & Prior Art
+
+This work is published with a DOI via Zenodo (10.5281/zenodo.18134920)
+and constitutes prior art for code-driven mechanical design methodologies.
 
 ---
 
