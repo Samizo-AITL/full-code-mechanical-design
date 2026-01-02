@@ -108,9 +108,11 @@ This approach can be summarized as:
 
 ## Status
 
-- Experimental
-- Actively evolving
-- Focused on establishing a robust, GUI-independent design workflow
+This repository currently focuses on defining the **conceptual and architectural
+principles** of Full Code Mechanical Design.
+
+Python / FreeCAD implementation examples will be added incrementally,
+starting from minimal reproducible geometry definitions.
 
 ---
 
