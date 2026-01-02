@@ -126,6 +126,20 @@ to an intent-driven, reproducible, and scalable engineering discipline.
 
 ---
 
+## Beyond CAD: Mechanical Design as IP
+
+This project goes beyond parametric CAD automation.
+
+By expressing geometry, constraints, and design decisions
+entirely in code, mechanical design itself becomes
+a reusable and evolvable intellectual property (IP).
+
+The generated CAD model is only a byproduct.
+The true asset is the executable design knowledge,
+similar to RTL or IP blocks in SoC design.
+
+---
+
 ## 👤 Author
 
 | 📌 Item | Details |
