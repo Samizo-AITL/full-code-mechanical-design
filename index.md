@@ -1,6 +1,5 @@
 ---
 title: Repository Index
-layout: default
 ---
 
 # Full Code Mechanical Design
