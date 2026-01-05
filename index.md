@@ -288,8 +288,8 @@ Full Code Mechanical Design methodology.
 
 ---
 
-## 💬 Feedback
+## 💬　Feedback
 
 > Suggestions, improvements, and discussions are welcome via GitHub Discussions.
 
-[GitHub Discussions](https://github.com/Samizo-AITL/full-code-mechanical-design/discussions)
+[![💬 GitHub Discussions](https://img.shields.io/badge/💬%20GitHub-Discussions-brightgreen?logo=github)](https://github.com/Samizo-AITL/full-code-mechanical-design/discussions)
