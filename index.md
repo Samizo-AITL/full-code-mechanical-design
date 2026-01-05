@@ -19,11 +19,13 @@ and automation.
 |----------|----------------|-----------|
 | 🇺🇸 English | [![GitHub Pages EN](https://img.shields.io/badge/GitHub%20Pages-English-brightgreen?logo=github)](https://samizo-aitl.github.io/full-code-mechanical-design/) | [![GitHub Repo EN](https://img.shields.io/badge/GitHub-English-blue?logo=github)](https://github.com/Samizo-AITL/full-code-mechanical-design/tree/main) |
 
-[![Back to Samizo-AITL Portal](https://img.shields.io/badge/Back%20to%20Samizo--AITL%20Portal-brightgreen)](https://samizo-aitl.github.io) 
+[![Back to Samizo-AITL Portal](https://img.shields.io/badge/Back%20to%20Samizo--AITL%20Portal-brightgreen)](https://samizo-aitl.github.io)
 
 ---
 
-This repository explores a methodology for designing mechanical parts and assemblies entirely through Python code using FreeCAD, focusing on reproducibility, clarity of design intent, and automation.
+This repository explores a methodology for designing mechanical parts and assemblies
+entirely through Python code using FreeCAD, focusing on reproducibility,
+clarity of design intent, and automation.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18134920.svg)](https://doi.org/10.5281/zenodo.18134920)
 
@@ -36,7 +38,7 @@ and constitutes prior art for code-driven mechanical design methodologies.
 
 ---
 
-## Why Full-Code Mechanical Design Wins
+## Why Full Code Mechanical Design Wins
 
 Mechanical design should not be treated as a static artifact (CAD data or drawings),
 but as a reproducible, evolvable set of rules.
@@ -52,7 +54,7 @@ In this approach:
 - Verification and design live in the same environment
 - Mechanical design becomes reusable intellectual property (IP)
 
-This is not an efficiency improvement.
+This is not an efficiency improvement.  
 It is a structural transformation of mechanical design itself.
 
 Once design logic is expressed as code,
@@ -62,8 +64,9 @@ there is no reason to return to GUI-driven workflows.
 
 ## Concept
 
-Traditional CAD workflows are heavily dependent on GUI operations, feature histories,
-and constraint-based assemblies.
+Traditional CAD workflows are heavily dependent on GUI operations,
+feature histories, and constraint-based assemblies.
+
 This project intentionally avoids those assumptions and adopts the following principles:
 
 - Dimensions are **variables**
@@ -103,11 +106,71 @@ This approach can be summarized as:
 ## Repository Structure
 
 ```
-├─ parts/ # Individual part generators (functions/modules)
-├─ assembly/ # Assembly and layout definitions
-├─ build.py # Entry point to generate the complete model
-└─ README.md
+├─ src/
+│  ├─ parts/        # Individual part generators (functions/modules)
+│  ├─ assembly/     # Assembly and layout definitions
+│  └─ build.py      # Entry point to generate the complete model
+├─ README.md
+└─ LICENSE
 ```
+
+---
+
+## ▶ Quick Start (Minimal Reproducible Example)
+
+This repository includes a **minimal working example** that generates
+a simple 3D mechanical model using **FreeCAD in headless (non-GUI) mode**.
+
+### Requirements
+
+- FreeCAD 0.21 or later
+- Python bundled with FreeCAD
+
+⚠️ **Important**  
+Do **NOT** use system Python.  
+You must use the Python interpreter bundled with FreeCAD.
+
+---
+
+### Execution (Windows example)
+
+```powershell
+cd src
+"C:\Program Files\FreeCAD 0.21\bin\FreeCADCmd.exe" build.py
+```
+
+This will:
+
+- Generate a simple part defined in `parts/`
+- Assemble it using placement logic in `assembly/`
+- Create a FreeCAD document (`.FCStd`) as output
+
+The FreeCAD GUI is **not required** for model generation.  
+It may be used only to inspect the generated result.
+
+---
+
+### Execution (Linux example)
+
+```bash
+cd src
+freecadcmd build.py
+```
+
+---
+
+### Purpose of This Example
+
+This example is intentionally minimal.
+
+Its purpose is **not** to demonstrate complex geometry,
+but to prove that:
+
+- Mechanical geometry can be generated entirely by code
+- Design intent lives in Python, not in GUI operations
+- CAD is an execution engine, not an authoring environment
+
+More advanced examples will be added incrementally.
 
 ---
 
@@ -149,6 +212,7 @@ Mechanical design is currently at a similar turning point.
 
 Traditional mechanical CAD workflows rely heavily on manual GUI
 operations, much like hand-routing in early chip design.
+
 In contrast, this project treats:
 
 - Geometry generation as layout
@@ -160,20 +224,15 @@ In contrast, this project treats:
 In this sense, **Full Code Mechanical Design is to mechanical engineering
 what RTL is to SoC design**.
 
-This shift moves mechanical design from a craft-based process
-to an intent-driven, reproducible, and scalable engineering discipline.
-
 ---
 
 ## Beyond CAD: Mechanical Design as IP
-
-This project goes beyond parametric CAD automation.
 
 By expressing geometry, constraints, and design decisions
 entirely in code, mechanical design itself becomes
 a reusable and evolvable intellectual property (IP).
 
-The generated CAD model is only a byproduct.
+The generated CAD model is only a byproduct.  
 The true asset is the executable design knowledge,
 similar to RTL or IP blocks in SoC design.
 
@@ -198,7 +257,7 @@ However, claims of originality or ownership over the methodology itself are not.
 |--------|---------|
 | **Name** | Shinichi Samizo |
 | **Expertise** | Semiconductor devices (logic, memory, high-voltage mixed-signal)<br>Thin-film piezo actuators for inkjet systems<br>PrecisionCore printhead productization, BOM management, ISO training |
-| **GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL) |
+| **GitHub** | [Samizo-AITL](https://github.com/Samizo-AITL) |
 
 ---
 
@@ -222,14 +281,15 @@ as exclusive intellectual property by third parties.
 
 ### Prior Art Notice
 
-This repository and its associated Zenodo record (DOI: 10.5281/zenodo.18134920)
-constitute a public disclosure of the Full Code Mechanical Design methodology
-and are intended to serve as prior art.
+This repository and its associated Zenodo record
+(DOI: 10.5281/zenodo.18134920)
+constitute a public disclosure of the
+Full Code Mechanical Design methodology.
 
 ---
 
-## 💬　Feedback
+## 💬 Feedback
 
 > Suggestions, improvements, and discussions are welcome via GitHub Discussions.
 
-[![💬 GitHub Discussions](https://img.shields.io/badge/💬%20GitHub-Discussions-brightgreen?logo=github)](https://github.com/Samizo-AITL/full-code-mechanical-design/discussions)
+[GitHub Discussions](https://github.com/Samizo-AITL/full-code-mechanical-design/discussions)
