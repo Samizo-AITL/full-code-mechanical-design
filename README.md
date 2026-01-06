@@ -38,6 +38,36 @@ and constitutes prior art for code-driven mechanical design methodologies.
 
 ---
 
+## Historical Context
+
+Prototype fabrication → machining → dimensional measurement → drawing.  
+Three-dimensional objects are projected onto two-dimensional drawings
+using orthographic projection, and conversely, three-dimensional form
+is reconstructed mentally from two-dimensional drawings.
+
+This bidirectional translation constituted a core skill
+for traditional mechanical designers.
+
+From this perspective, it is understandable that
+generative design or code-driven approaches—where the designer
+does not directly manipulate geometry—can feel intuitively
+difficult to accept.
+
+However, semiconductor layout design followed a similar trajectory.
+There was a time when routing was performed manually,
+with designers carefully accounting for process-specific behavior
+based on experience and tacit knowledge.
+
+As design rules were formalized and incorporated into PDKs,
+the center of design activity shifted
+from manual layout to logical description using Verilog.
+
+Viewed in the context of technological history,
+it may be unavoidable that mechanical design
+will follow a comparable path.
+
+---
+
 ## Why Full Code Mechanical Design Wins
 
 Mechanical design should not be treated as a static artifact (CAD data or drawings),
