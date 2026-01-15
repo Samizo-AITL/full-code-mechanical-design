@@ -296,6 +296,40 @@ similar to RTL or IP blocks in SoC design.
 
 ---
 
+## Practical Workflow Comparison  
+### Conventional Mechanical Design vs Full Code Mechanical Design
+
+The following table compares typical industrial mechanical design workflows
+with a Full Code Mechanical Design (FCMD) approach.
+
+This comparison focuses on *how daily engineering work changes in practice*,
+rather than philosophical advantages.
+
+| Aspect | Conventional Workflow | Full Code Mechanical Design |
+|------|----------------------|-----------------------------|
+| Design authoring | GUI-based CAD operations | Python code (executable design logic) |
+| Dimensions | Fixed values in sketches | Variables and parameters |
+| Design intent | Implicit, experience-based | Explicit and reviewable in code |
+| Design change | Manual model edits | Parameter or logic change |
+| Reusability | Low (copy & modify) | High (functions, modules) |
+| Review process | Drawing-based review | Code + generated model review |
+| BOM creation | Manual or semi-automatic | Automatically generated from code |
+| Manufacturing constraints | Checked after design | Embedded in design logic |
+| Measurement | Drawing-based point inspection | CAD-to-CMM comparison |
+| Drawings | Shape definition + dimensions | Quality specification (GD&T, roughness) |
+| Knowledge retention | CAD files and drawings | Version-controlled design logic |
+| Long-term scalability | Limited | High (automation, optimization, CI) |
+
+In a Full Code Mechanical Design workflow,  
+CAD systems function as *geometry execution engines*,  
+while **design authority resides in executable code**.
+
+Drawings remain essential, but their role shifts from
+defining geometry to specifying **quality requirements**
+such as GD&T, surface roughness, and inspection rules.
+
+---
+
 ## Intellectual Property Notice
 
 This repository represents a reference implementation of
