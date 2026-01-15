@@ -234,6 +234,27 @@ without any GUI-based modeling operations.
 
 *Figure 1. Mechanical assembly generated purely by Python code using FreeCAD as a geometry engine.*
 
+---
+
+## Geometric Core Example (Function-Defined Geometry)
+
+The following model demonstrates a **purely geometric solid**
+generated from a continuous mathematical function,
+without sketches, constraints, or GUI-based modeling steps.
+
+The geometry is defined as a sequence of cross-sections whose radius
+is expressed as an explicit function of the axial coordinate.
+The final solid is obtained by lofting these sections.
+
+<a href="http://samizo-aitl.github.io/full-code-mechanical-design/fig/02_geometric_function_loft.png" target="_blank">
+  <img src="http://samizo-aitl.github.io/full-code-mechanical-design/fig/02_geometric_function_loft.png"
+       alt="Function-defined geometric solid generated purely by code"
+       style="width:80%;">
+</a>
+
+*Figure 2. A geometric solid generated from an explicit radius function  
+$r = f(z)$ using Python code and FreeCAD as a geometry engine.
+No sketches, constraints, or GUI-based modeling operations are involved.*
 
 ---
 
