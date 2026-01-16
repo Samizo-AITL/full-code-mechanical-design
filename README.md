@@ -353,7 +353,7 @@ However, claims of originality or ownership over the methodology itself are not.
 
 ## 📄 License
 
-[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/full-code-mechanical-design//#-license)
+[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/full-code-mechanical-design/#---license)
 
 | Item | License | Description |
 |------|---------|-------------|
