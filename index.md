@@ -19,8 +19,6 @@ and automation.
 |----------|----------------|-----------|
 | 🇺🇸 English | [![GitHub Pages EN](https://img.shields.io/badge/GitHub%20Pages-English-brightgreen?logo=github)](https://samizo-aitl.github.io/full-code-mechanical-design/) | [![GitHub Repo EN](https://img.shields.io/badge/GitHub-English-blue?logo=github)](https://github.com/Samizo-AITL/full-code-mechanical-design/tree/main) |
 
-[![Back to Samizo-AITL Portal](https://img.shields.io/badge/Back%20to%20Samizo--AITL%20Portal-brightgreen)](https://samizo-aitl.github.io)
-
 ---
 
 This repository explores a methodology for designing mechanical parts and assemblies
