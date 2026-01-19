@@ -7,6 +7,8 @@ description: "A code-driven approach to mechanical design using Python and FreeC
 
 **A code-driven approach to mechanical design without relying on GUI-based CAD workflows.**
 
+[![Back to Portal (EN)](https://img.shields.io/badge/Back%20to%20Portal-0B5FFF?style=for-the-badge&logo=homeassistant&logoColor=white)](https://samizo-aitl.github.io/portal/en/)
+
 This repository explores a methodology for designing mechanical parts and assemblies  
 **entirely through Python code using FreeCAD**, focusing on:
 
