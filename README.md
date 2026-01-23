@@ -275,8 +275,10 @@ All geometry is defined explicitly in Python and executed by FreeCAD as a geomet
 **Key characteristics:**
 
 - Cross-section defined by mathematical functions
-- Continuous twist angle:  
-  $$\theta(z) = f(z)$$
+- Continuous twist angle:
+  
+$$\theta(z) = f(z)$$
+
 - Deterministic loft generation via OCCT (`Part` module)
 - Fully reproducible from code execution
 
